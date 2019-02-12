@@ -1,0 +1,20 @@
+PODS:
+  - MJExtension (3.0.15.1)
+  - SocketRocket (0.5.1)
+
+DEPENDENCIES:
+  - MJExtension
+  - SocketRocket
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MJExtension
+    - SocketRocket
+
+SPEC CHECKSUMS:
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+
+PODFILE CHECKSUM: f70b7eabd684c322c40d57df9c53346092b8b8e2
+
+COCOAPODS: 1.5.2
