@@ -26,8 +26,8 @@ typedef NS_ENUM(NSInteger, SocketStatus){
  *  消息类型
  */
 typedef NS_ENUM(NSInteger, SocketReceiveType){
-     SocketReceiveTypeForMessage,
-     SocketReceiveTypeForPong
+     SocketReceiveTypeForMessage = 0,
+     SocketReceiveTypeForPong = 1
 };
 
 /**
@@ -108,6 +108,9 @@ typedef void(^SocketDidReceiveBlock)(id message ,SocketReceiveType type);
 //取消心跳
 - (void)destoryHeartBeat;
 
-
+//字典转json字符串
+-(NSString *)dictToJsonData:(NSDictionary *)dict;
+//字符串转字典
+-(NSDictionary *)dictionaryWithJsonString:(NSString *)jsonString;
 @end
 
